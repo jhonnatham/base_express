@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "marca": "BMW",
+        "model": "X3",
+        "year": 2023
+    },
+    {
+        "id": 2,
+        "marca": "BMW",
+        "model": "X5",
+        "year": 2024
+    },
+    {
+        "id": 3,
+        "marca": "Audi",
+        "model": "A!",
+        "year": 2021
+    },
+    {
+        "id": 4,
+        "marca": "Mercedes",
+        "model": "Clase A",
+        "year": 2022
+    }
+]
