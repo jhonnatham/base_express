@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express()
-const permisos = require('./validationUser')
-const logs = require('./registerLog')
-const car = require('./cars/car')
+const permisos = require('./midlleware/validationUser')
+const logs = require('./midlleware/registerLog')
+const car = require('./router/car')
 
 const port = process.env.PORT || 3003
 
+// process request format json
 app.use(express.json())
 
 // middleware cualquier peticion
